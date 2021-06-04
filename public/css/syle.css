@@ -31,12 +31,27 @@ html {
     margin-right: 20px;
     margin-bottom: 20px;
     width: 400px;
+    border: silver 10px solid;
+    border-image-source: url("/img/marco-dorado-200.png");
+    border-image-slice: 21;
+    padding: 10px;
+    text-align: justify;
+}
+
+.copyr {
+    border: silver 27px solid;
+    border-image-slice: 27 fill;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-align: justify;
 }
 
 .container-all p{
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 20px;
+    line-height: 28px;
 }
 
 .container-all h3{
